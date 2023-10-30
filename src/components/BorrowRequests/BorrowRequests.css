@@ -1,0 +1,48 @@
+/* TABLE STRUCTURE */
+.borrow-rquests-component>table {
+    width: 90%;
+    overflow: hidden;
+    border-radius: 0.15em;
+    background-color: white;
+    animation: slideDownIn 0.5s linear both;
+    -webkit-animation: slideDownIn 0.5s linear both;
+}
+
+.borrow-rquests-component>table>caption {
+    font-weight: bold;
+}
+
+.borrow-rquests-component .icon-button {
+    font-size: 1.4em;
+    margin: 0em .35em;
+}
+
+.borrow-rquests-component .icon-button:hover {
+    cursor: pointer;
+    color: gray;
+}
+
+/* DUE DATE COL */
+.borrow-rquests-component .due-date-col {
+    display: flex;
+    align-items: center;
+}
+
+.borrow-rquests-component .due-date-col>.limit-input>input {
+    background-color: transparent !important;
+    border: none;
+    width: 10em;
+    text-align: start;
+    color: white;
+}
+
+.borrow-rquests-component .due-date-col>.limit-input>input:focus {
+    color: gainsboro;
+    box-shadow: none !important;
+}
+
+@media screen and (max-width: 960px) {
+    .borrow-rquests-component>table {
+        display: none;
+    }
+}

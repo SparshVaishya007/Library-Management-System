@@ -1,0 +1,111 @@
+const data = [
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://plus.unsplash.com/premium_photo-1679619558250-41fa96ef187c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: true,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "anthony",
+    category: "Unkown",
+    cover: "https://images.unsplash.com/photo-1681407979620-193f8181f5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: true,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://plus.unsplash.com/premium_photo-1679541668175-a0fceb49b59d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: false,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://plus.unsplash.com/premium_photo-1679619558250-41fa96ef187c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: false,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://images.unsplash.com/photo-1681407979620-193f8181f5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: false,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://plus.unsplash.com/premium_photo-1679619558250-41fa96ef187c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: true,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://images.unsplash.com/photo-1681407979620-193f8181f5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: false,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://plus.unsplash.com/premium_photo-1679541668175-a0fceb49b59d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: true,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://plus.unsplash.com/premium_photo-1679619558250-41fa96ef187c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: false,
+  },
+  {
+    isbn: Math.floor(Math.random() * 20212000 + 20211800),
+    rackNumber: Math.floor(Math.random() * 5 + 1),
+    title: "Book",
+    author: "Unknown",
+    category: "Unkown",
+    cover: "https://images.unsplash.com/photo-1681407979620-193f8181f5fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
+    booked: false,
+  },
+];
+
+export const users = [
+  { name: "person", email: "person@email.com", phone: "123456789", status: "active", borrowLimit: Math.floor(Math.random() * 10 + 1) },
+  { name: "person", email: "person@email.com", phone: "123456789", status: "inactive", borrowLimit: Math.floor(Math.random() * 10 + 1) },
+  { name: "person", email: "person@email.com", phone: "123456789", status: "active", borrowLimit: Math.floor(Math.random() * 10 + 1) },
+  { name: "person", email: "person@email.com", phone: "123456789", status: "inactive", borrowLimit: Math.floor(Math.random() * 10 + 1) },
+  { name: "person", email: "person@email.com", phone: "123456789", status: "active", borrowLimit: Math.floor(Math.random() * 10 + 1) },
+  { name: "person", email: "person@email.com", phone: "123456789", status: "inactive", borrowLimit: Math.floor(Math.random() * 10 + 1) },
+];
+
+export const borrow = [
+  { isbn: "person", email: "person@email.com", dueDate: "1234-07-05", status: "booked" },
+  { isbn: "person", email: "person@email.com", dueDate: "1234-12-25", status: "waiting" },
+  { isbn: "person", email: "person@email.com", dueDate: "1234-05-13", status: "booked" },
+  { isbn: "person", email: "person@email.com", dueDate: "1234-11-26", status: "waiting" },
+];
+
+export const categories = ["Science Fiction", "Psychology", "Horror", "Novel"];
+export default data;

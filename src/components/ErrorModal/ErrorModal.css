@@ -1,0 +1,21 @@
+.err-modal-container {
+    position: absolute;
+    top: .5%;
+    left: .5%;
+}
+
+.err-modal-container>section:last-child {
+    display: flex;
+    justify-content: center;
+}
+
+.err-modal-container>section:last-child>svg {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.err-modal-container>section:last-child:hover {
+    cursor: pointer;
+    opacity: 80%;
+    color: red;
+}

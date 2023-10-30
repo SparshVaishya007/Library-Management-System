@@ -1,0 +1,14 @@
+.home-page {
+    background-image: radial-gradient(#6e6e6ea7, #6e6e6ea7), url(/src/assets/images/HomeBKG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.home-page .book-card-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15em, 1fr));
+    grid-auto-flow: dense;
+    padding: .75em 0em;
+}
